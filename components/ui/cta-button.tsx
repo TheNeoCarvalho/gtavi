@@ -4,10 +4,9 @@ import { useCallback } from "react";
 import { toast } from "sonner";
 import { ArrowRight, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { SITE } from "@/constants/site";
 
 export function CtaButton({
-  href = SITE.checkoutUrl,
+  href = "#pricing",
   children = "QUERO MEU PACK AGORA",
   sub = "Acesso imediato • Garantia de 7 dias",
   className,
@@ -21,7 +20,7 @@ export function CtaButton({
 }) {
   const handleClick = useCallback(
     (e: React.MouseEvent<HTMLAnchorElement>) => {
-      if (href === SITE.checkoutUrl && href.startsWith("#")) {
+      if (href.startsWith("#")) {
         return;
       }
       e.preventDefault();

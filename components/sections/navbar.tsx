@@ -52,7 +52,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <Badge tone="danger">🔥 {SITE.spotsLeft} vagas</Badge>
-          <a href={SITE.checkoutUrl} className="btn-primary min-h-11 !px-5 !py-2.5 text-sm">
+          <a href="#pricing" className="btn-primary min-h-11 !px-5 !py-2.5 text-sm">
             QUERO MEU PACK
           </a>
         </div>
@@ -82,7 +82,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href={SITE.checkoutUrl}
+              href="#pricing"
               onClick={() => setMenuOpen(false)}
               className="btn-primary mt-2 w-full text-center text-sm"
             >

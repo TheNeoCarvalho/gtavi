@@ -103,7 +103,12 @@ export function Pricing() {
             ))}
           </ul>
 
-          <a href={SITE.checkoutUrl} className="btn-primary mt-8 w-full text-center text-sm">
+          <a
+            href={SITE.checkoutUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary mt-8 w-full text-center text-sm"
+          >
             QUERO O PLANO BÁSICO
           </a>
           <p className="mt-3 text-center font-mono text-xs text-dim">
@@ -151,6 +156,8 @@ export function Pricing() {
 
           <a
             href={SITE.checkoutProUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary mt-8 w-full text-center text-sm"
           >
             QUERO O PLANO PRO 👑

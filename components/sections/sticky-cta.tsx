@@ -27,10 +27,7 @@ export function StickyCta() {
                 🔥 {SITE.spotsLeft} vagas restantes
               </p>
             </div>
-            <a
-              href={SITE.checkoutUrl}
-              className="btn-primary min-h-11 !px-5 !py-2 text-sm whitespace-nowrap"
-            >
+            <a href="#pricing" className="btn-primary min-h-11 !px-5 !py-2 text-sm whitespace-nowrap">
               QUERO MEU PACK
             </a>
           </div>
