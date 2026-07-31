@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VIZION PACK — Landing Page
 
-## Getting Started
+Landing page de alta conversão para venda do **VIZION PACK** (+1.500 vídeos prontos de GTA 6 para postar e monetizar). Dark-first, neon synthwave, construída com Next.js 15.
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Next.js 15 (App Router) · TypeScript · TailwindCSS v4
+- Framer Motion · Lucide · Embla Carousel · Sonner · @vercel/og
+- shadcn/ui patterns (componentes próprios em `components/ui`)
+
+## Estrutura
+
+```
+app/            rotas, layout, metadata, SEO (sitemap, robots, opengraph-image)
+components/
+  ui/           primitivas (button, badge, accordion, countdown, marquee, motion)
+  sections/     seções do funil (topbar → footer)
+  home/         mockup-player, dashboard (elementos-assinatura em CSS/JSX)
+constants/      toda a copy e dados centralizados
+hooks/          countdown, scroll
+lib/            cn(), Schema.org JSON-LD
+docs/           pesquisa, brainstorming, design system, plano, imagens, social
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Desenvolvimento
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev      # servidor de dev
+npm run build    # build de produção
+npm run start    # serve build (precisa build antes)
+npm run lint     # eslint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Configurar antes de publicar
 
-## Learn More
+- `constants/site.ts`: trocar `url`, `checkoutUrl`, `whatsapp`, `instagram`, `email` e preços.
+- Meta description/OG já centralizados em `app/layout.tsx`.
+- Ajustar contagem de vagas e timer em `constants/site.ts`.
 
-To learn more about Next.js, take a look at the following resources:
+## Disclaimer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Produto independente, sem afiliação com Rockstar Games ou Take-Two Interactive. As artes seguem identidade própria (synthwave/neon) sem assets oficiais.
