@@ -43,13 +43,13 @@ export function Testimonials() {
   return (
     <SectionShell id="depoimentos">
       <SectionHeading
-        eyebrow="Prova real"
+        eyebrow="O que dizem"
         title={
           <>
-            Quem já usa, <span className="text-gradient">aprova</span>
+            Quem já usa, <span className="text-gradient">recomenda</span>
           </>
         }
-        subtitle="Feedbacks reais de criadores que já faturam com conteúdo de GTA 6."
+        subtitle="Feedbacks de criadores que usam o pack no dia a dia."
       />
 
       <Reveal>

@@ -1,7 +1,6 @@
 "use client";
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { SITE } from "@/constants/site";
 import { useHasScrolled } from "@/hooks/use-interactions";
 
 export function StickyCta() {
@@ -19,14 +18,9 @@ export function StickyCta() {
           className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-bg-elevated/85 px-4 py-3 backdrop-blur-xl lg:hidden"
         >
           <div className="mx-auto flex max-w-md items-center justify-between gap-3">
-            <div>
-              <p className="font-display text-xs font-bold text-text">
-                +1.500 vídeos de GTA 6
-              </p>
-              <p className="font-mono text-[0.65rem] text-danger">
-                🔥 {SITE.spotsLeft} vagas restantes
-              </p>
-            </div>
+            <p className="font-display text-xs font-bold text-text">
+              +1.500 vídeos de GTA 6
+            </p>
             <a href="#pricing" className="btn-primary min-h-11 !px-5 !py-2 text-sm whitespace-nowrap">
               QUERO MEU PACK
             </a>

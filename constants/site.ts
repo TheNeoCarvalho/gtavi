@@ -12,14 +12,7 @@ export const SITE = {
   priceBasicAnchor: 97,
   pricePro: 29.9,
   priceProAnchor: 197,
-  spotsTotal: 150,
-  spotsLeft: 18,
   videos: 1500,
-  views: 40000000,
-  creators: 137,
-  rating: 4.9,
-  reviews: 900,
-  channels: 120,
 } as const;
 
 export const NAV_LINKS = [
@@ -32,8 +25,8 @@ export const NAV_LINKS = [
 
 export const HERO_STATS = [
   { value: "+1.500", label: "vídeos 100% prontos" },
-  { value: "+40M", label: "views geradas" },
-  { value: "4.9★", label: "de +900 avaliações" },
+  { value: "9:16", label: "formato vertical" },
+  { value: "+1 min", label: "duração pra monetizar" },
 ] as const;
 
 export const PLATFORMS = [
@@ -50,10 +43,10 @@ export const PLATFORMS = [
 ] as const;
 
 export const OPPORTUNITY_STATS = [
-  { value: "+1000", label: "vídeos prontos no pack" },
+  { value: "+1.500", label: "vídeos prontos no pack" },
   { value: "100%", label: "pronto pra postar" },
-  { value: "+40M", label: "views geradas com nossos packs" },
-  { value: "+120", label: "canais monetizados" },
+  { value: "9:16", label: "formato vertical" },
+  { value: "+1 min", label: "ideal pra monetizar" },
 ] as const;
 
 export const DELIVERABLES = [
@@ -74,18 +67,18 @@ export const DELIVERABLES = [
   },
   {
     icon: "Film",
-    title: "Trailers e teasers",
-    desc: "Conteúdo pronto pra surfar cada novidade do lançamento — no dia do hype.",
+    title: "Cortes de gameplay",
+    desc: "Os melhores momentos do jogo já cortados e prontos pra publicar no formato certo.",
   },
   {
     icon: "Eye",
-    title: "Vazamentos e novidades",
-    desc: "Os assuntos mais procurados do momento — o tipo de vídeo que atrai view em massa.",
+    title: "Novidades em primeira mão",
+    desc: "Conteúdo novo sendo adicionado a cada grande novidade do lançamento.",
   },
   {
     icon: "Ban",
     title: "Sem marca d'água",
-    desc: "Vídeos limpos, prontos pra você postar como se fossem seus. Nada de logo de terceiros.",
+    desc: "Vídeos limpos, prontos pra você publicar no seu canal. Nada de logo de terceiros.",
   },
   {
     icon: "Mic",
@@ -193,43 +186,43 @@ export const TESTIMONIALS = [
   {
     name: "Rafael M.",
     handle: "@rafa.shortsvault",
-    text: "Passei de 0 a 10k inscritos em 2 meses postando 3 vídeos por dia. Pack absurdo de bom.",
+    text: "Os vídeos já vêm prontos, é só baixar e postar. Economizo um tempão todo dia pra produzir conteúdo.",
     rating: 5,
   },
   {
     name: "Camila R.",
     handle: "@camilacria",
-    text: "Meu primeiro short bateu 1 milhão de views. Achava que era impossível sem saber editar.",
+    text: "Achei que seria difícil, mas é só escolher o vídeo e publicar. Tudo muito organizado e fácil de usar.",
     rating: 5,
   },
   {
     name: "Diego S.",
     handle: "@diego.gera",
-    text: "Achei que era golpe, hoje é minha renda extra fixa. Já paguei o pack no primeiro mês.",
+    text: "Desconfiei no começo, mas o conteúdo é de qualidade e o acesso foi liberado na hora. Recomendo.",
     rating: 5,
   },
   {
     name: "Larissa T.",
     handle: "@larissashorts",
-    text: "Os títulos prontos me economizam um tempão. É só escolher, baixar e postar.",
+    text: "Os títulos prontos me ajudam demais. É só escolher, baixar e postar no canal.",
     rating: 5,
   },
   {
     name: "Bruno A.",
     handle: "@brunopack",
-    text: "Não sabia NADA de edição e postei no mesmo dia. Comunidade muito ativa também.",
+    text: "Não sabia nada de edição e consegui publicar no mesmo dia. Comunidade muito ativa também.",
     rating: 5,
   },
   {
     name: "Marina F.",
     handle: "@marinacriadora",
-    text: "Vídeo novo toda semana, nunca fico sem conteúdo. Melhor investimento que já fiz.",
+    text: "Vídeo novo toda semana, nunca fico sem conteúdo. O suporte é muito atencioso.",
     rating: 5,
   },
 ] as const;
 
 export const COMMUNITY_BULLETS = [
-  "Avisos de novos vídeos e vazamentos em primeira mão",
+  "Avisos de novos vídeos e novidades em primeira mão",
   "Dicas do que está bombando pra postar agora",
   "Suporte e troca de experiência com outros criadores",
   "Tudo pronto antes do jogo lançar — saia na frente",
@@ -270,7 +263,7 @@ export const FAQS = [
   },
   {
     q: "Os vídeos têm marca d'água?",
-    a: "Não. São limpos, sem logo de terceiros — prontos pra postar como seus.",
+    a: "Não. São limpos, sem logo de terceiros — prontos pra você publicar no seu canal.",
   },
   {
     q: "Serve pra TikTok, Reels e Shorts?",
@@ -282,7 +275,7 @@ export const FAQS = [
   },
   {
     q: "Os vídeos são únicos?",
-    a: "Cada membro recebe um pack individual — os vídeos não se repetem entre os criadores. Por isso as vagas são limitadas.",
+    a: "Cada membro recebe um acervo individual — os vídeos não se repetem entre os criadores.",
   },
   {
     q: "As atualizações têm custo?",
@@ -300,12 +293,4 @@ export const FAQS = [
     q: "Quanto tempo tenho de acesso?",
     a: "Vitalício. Você paga uma vez e acessa o acervo para sempre, incluindo as atualizações.",
   },
-] as const;
-
-export const RECENT_BUYERS = [
-  { name: "Carlos P.", minutes: "há 2 min" },
-  { name: "Julia M.", minutes: "há 9 min" },
-  { name: "Felipe R.", minutes: "há 14 min" },
-  { name: "Ana B.", minutes: "há 23 min" },
-  { name: "Lucas T.", minutes: "há 31 min" },
 ] as const;

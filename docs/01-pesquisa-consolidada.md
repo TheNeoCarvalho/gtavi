@@ -46,7 +46,7 @@
 
 ## 5. Contexto do produto / mercado GTA VI + Shorts
 
-- GTA VI = maior lançamento da década; cada trailer/vazamento gera busca em massa.
+- GTA VI = maior lançamento da década; cada trailer/novidade gera busca em massa.
 - YouTube Shorts: monetização com 1.000 inscritos + 10M views em 90 dias OU 4.000h; **60% dos criadores já monetizam**; fundo de US$100M→ receita de anúncios (2023+).
 - YouTube 2026: punição a conteúdo repetitivo e reciclado → **originalidade/valor único importam** (vantagem competitiva para pack com vídeos tratados, narração, formato vertical).
 - UGC/monetização in-game do GTA 6 (2026) amplia hype → mais busca por conteúdo.

@@ -82,7 +82,7 @@ export function MockupPlayer({ className }: { className?: string }) {
 
         <div className="px-1 pt-3">
           <p className="font-display text-sm font-bold leading-snug text-text">
-            Vazamento exclusivo GTA 6 que ninguém viu 🚨
+            Corte de gameplay que está bombando 🚨
           </p>
           <div className="mt-2 flex items-center gap-3 font-mono text-[0.65rem] text-dim">
             <span className="inline-flex items-center gap-1">

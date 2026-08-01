@@ -17,12 +17,12 @@
 
 ## Subheadlines (10)
 
-1. Cortes virais, trailers e vazamentos — formato vertical, +1 minuto, narração pronta. Ideal pra YouTube Shorts, Reels e TikTok. ★
+1. Cortes virais, trailers e novidades — formato vertical, +1 minuto, narração pronta. Ideal pra YouTube Shorts, Reels e TikTok. ★
 2. Milhares de criadores estão se preparando pro lançamento. Você pode ser um deles.
 3. Nada de pasta bagunçada: plataforma organizada com busca, títulos prontos e tags pra acelerar sua publicação.
 4. O tipo de conteúdo que o algoritmo ama: novos, polêmicos e impossíveis de ignorar.
 5. Atualizações constantes conforme o hype do GTA 6 cresce. Conteúdo novo, sempre.
-6. Um acervo que se renova: cada vazamento, trailer e novidade vira vídeo pronto pra você.
+6. Um acervo que se renova: cada novidade, trailer e novidade vira vídeo pronto pra você.
 7. Feito pra quem quer resultado sem passar horas na frente do editor.
 8. Sua vantagem competitiva antes, durante e depois do lançamento.
 9. Comunidade exclusiva de criadores compartilhando o que está viralizando.
@@ -71,7 +71,7 @@
 16. "São vídeos repetidos que todo mundo posta?" → pacotes individuais, não se repetem entre membros
 17. "E se eu não gostar?" → garantia de 7 dias, dinheiro de volta
 18. "Preciso de inscritos/audiência?" → não, você constrói canal do zero
-19. "Quais nichos servem?" → GTA 6: cortes, trailers, reações, vazamentos, curiosidades
+19. "Quais nichos servem?" → GTA 6: cortes, trailers, reações, novidades, curiosidades
 20. "E as atualizações?" → inclusas pra sempre, sem mensalidade
 
 ## Provas sociais (20)
@@ -85,7 +85,7 @@
 7. Depoimento: "Achei que era golpe, hoje é minha renda extra"
 8. Depoimento: "Já paguei o pack no primeiro mês"
 9. Avaliação com foto e nome real
-10. "Comunidade muito ativa, sempre avisam os vazamentos antes"
+10. "Comunidade muito ativa, sempre avisam os novidades antes"
 11. "Os títulos prontos me economizam um tempão"
 12. "Não sabia NADA de edição e postei no mesmo dia"
 13. "+2M de seguidores somados dos nossos alunos"
@@ -141,7 +141,7 @@
 17. O conteúdo é editado? → Sim, cortado, narrado e finalizado.
 18. Pode ser usado em vários canais? → Sim.
 19. É assinatura? → Não, compra única.
-20. Vocês atualizam com os vazamentos novos? → Sim, toda semana.
+20. Vocês atualizam com os novidades novos? → Sim, toda semana.
 
 ## Badges
 

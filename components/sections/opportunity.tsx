@@ -11,7 +11,7 @@ export function Opportunity() {
         title={
           <>
             O GTA 6 vai quebrar a internet.{" "}
-            <span className="text-gradient">Quem tá preparado vai lucrar alto.</span>
+            <span className="text-gradient">Quem tá preparado sai na frente.</span>
           </>
         }
       />
@@ -20,8 +20,8 @@ export function Opportunity() {
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-base leading-relaxed text-muted md:text-lg">
             É o maior lançamento da história dos games. Todo dia, milhões de
-            pessoas procuram cortes, trailers e novidades — e os canais que
-            postam GTA 6 estão explodindo de views.{" "}
+            pessoas procuram cortes de gameplay e novidades — e os canais que
+            postam GTA 6 estão crescendo.{" "}
             <strong className="text-text">
               O problema? Editar vídeo dá trabalho, toma horas
             </strong>

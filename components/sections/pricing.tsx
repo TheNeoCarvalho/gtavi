@@ -1,17 +1,14 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { Check, X, Crown, Zap, ShieldCheck, Lock } from "lucide-react";
+import { Check, X, Crown, ShieldCheck, Lock } from "lucide-react";
 import {
   SITE,
   PRICING_BASIC_FEATURES,
   PRICING_PRO_FEATURES,
-  RECENT_BUYERS,
 } from "@/constants/site";
 import { SectionHeading, SectionShell } from "@/components/ui/section-heading";
 import { Badge } from "@/components/ui/badge";
-import { Countdown } from "@/components/ui/countdown";
-import { Avatar } from "@/components/ui/avatar";
 import { cn } from "@/lib/utils";
 
 function formatPrice(value: number) {
@@ -31,37 +28,8 @@ export function Pricing() {
             Acesso ao <span className="text-gradient">pack completo</span>
           </>
         }
-        subtitle="Cada criador recebe um pack diferente — os vídeos não se repetem entre os membros. Por isso as vagas são limitadas."
+        subtitle="Cada criador recebe um acervo exclusivo — os vídeos não se repetem entre os membros."
       />
-
-      <motion.div
-        initial={reduce ? false : { opacity: 0, y: 24 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-60px" }}
-        transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="mb-10 flex flex-col items-center gap-3"
-      >
-        <div className="flex flex-col items-center gap-2 md:flex-row md:gap-4">
-          <Badge tone="danger" shimmer className="animate-glow-pulse">
-            <Zap className="size-3.5" aria-hidden />
-            {SITE.spotsLeft} de {SITE.spotsTotal} vagas restantes
-          </Badge>
-          <span className="font-mono text-xs uppercase tracking-wider text-dim">
-            Oferta de lançamento termina em
-          </span>
-          <Countdown />
-        </div>
-        <div className="flex flex-col items-center gap-2">
-          <div className="flex items-center -space-x-2" aria-hidden>
-            {RECENT_BUYERS.map((b, i) => (
-              <Avatar key={b.name} name={b.name} index={i} size="sm" className="ring-2 ring-bg" />
-            ))}
-          </div>
-          <p className="font-mono text-xs text-dim">
-            <span className="text-success">{RECENT_BUYERS.length}</span> acessos nos últimos 40 min
-          </p>
-        </div>
-      </motion.div>
 
       <div className="mx-auto grid max-w-4xl gap-6 lg:grid-cols-2">
         {/* Basic */}
@@ -121,7 +89,7 @@ export function Pricing() {
           <div className="absolute -top-4 left-1/2 -translate-x-1/2">
             <Badge tone="amber" shimmer className="bg-surface text-sm">
               <Crown className="size-4" aria-hidden />
-              ESCOLHA DA MAIORIA
+              PLANO MAIS COMPLETO
             </Badge>
           </div>
           <Badge tone="purple" className="mb-4 w-fit">

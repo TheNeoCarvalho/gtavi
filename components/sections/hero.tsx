@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
-import { SITE, HERO_STATS } from "@/constants/site";
+import { ShieldCheck } from "lucide-react";
+import { HERO_STATS } from "@/constants/site";
 import { Container } from "@/components/ui/container";
 import { Badge } from "@/components/ui/badge";
 import { CtaButton } from "@/components/ui/cta-button";
@@ -52,7 +52,7 @@ export function Hero() {
               animate="show"
               className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-muted md:text-lg lg:mx-0"
             >
-              Cortes virais, trailers e vazamentos — sem marca d&apos;água, com
+              Cortes virais de gameplay — sem marca d&apos;água, com
               narração e edição feitas. Formato vertical de +1 minuto, ideal pra
               monetizar no YouTube Shorts, Reels e TikTok.
             </motion.p>
@@ -64,7 +64,7 @@ export function Hero() {
               animate="show"
               className="mt-8"
             >
-              <CtaButton sub={`Acesso imediato · Garantia de 7 dias · ${SITE.spotsLeft} vagas`} />
+              <CtaButton sub="Acesso imediato · Garantia de 7 dias" />
             </motion.div>
 
             <motion.div
@@ -74,13 +74,9 @@ export function Hero() {
               animate="show"
               className="mt-8 flex items-center justify-center gap-2 lg:justify-start"
             >
-              <span className="flex items-center gap-0.5" aria-label="Avaliação 4.9 de 5">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="size-4 fill-cta text-cta" aria-hidden />
-                ))}
-              </span>
-              <span className="font-mono text-xs text-muted">
-                {SITE.rating} · +{SITE.reviews} avaliações de criadores
+              <span className="inline-flex items-center gap-2 font-mono text-xs text-muted">
+                <ShieldCheck className="size-4 text-success" aria-hidden />
+                Compra segura · Garantia de 7 dias
               </span>
             </motion.div>
 

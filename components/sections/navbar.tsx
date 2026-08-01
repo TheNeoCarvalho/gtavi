@@ -3,8 +3,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { NAV_LINKS, SITE } from "@/constants/site";
-import { Badge } from "@/components/ui/badge";
+import { NAV_LINKS } from "@/constants/site";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -51,7 +50,6 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Badge tone="danger">🔥 {SITE.spotsLeft} vagas</Badge>
           <a href="#pricing" className="btn-primary min-h-11 !px-5 !py-2.5 text-sm">
             QUERO MEU PACK
           </a>
@@ -86,7 +84,7 @@ export function Navbar() {
               onClick={() => setMenuOpen(false)}
               className="btn-primary mt-2 w-full text-center text-sm"
             >
-              QUERO MEU PACK — {SITE.spotsLeft} vagas
+              QUERO MEU PACK
             </a>
           </div>
         </div>

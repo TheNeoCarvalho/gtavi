@@ -19,7 +19,7 @@
 
 ### X / Twitter
 - Threads: "Como monetizar o hype do GTA 6 (guia rápido)" → 1/8 ... último tweet link.
-- Polls diárias + hot takes sobre vazamentos.
+- Polls diárias + hot takes sobre novidades.
 
 ### Facebook
 - Grupos de criadores de conteúdo/games: postar dica + menção do pack.
@@ -30,7 +30,7 @@
 - Pinterest: pins de "conteúdo viral gta 6", "ideias de shorts", "monetizar youtube".
 
 ### Telegram / WhatsApp
-- Canal de avisos: vazamentos em primeira mão → CTA pra comunidade/pack.
+- Canal de avisos: novidades em primeira mão → CTA pra comunidade/pack.
 - WhatsApp: disparos para lista própria com código de desconto.
 
 ## Templates de copy (sistema)
@@ -45,7 +45,7 @@
 1. **Reel (IG/TikTok)** — Hook: "Você não precisa editar pra monetizar com GTA 6." Corpo: cortes do jogo + pack. CTA: "Link na bio 🔥"
 2. **Tweet** — "hot take: canal de GTA 6 postando 3 shorts/dia é a renda extra mais simples de 2026. Se você tem 5 minutos, tem um negócio." + link
 3. **IG carrossel** — "5 erros de quem tenta monetizar com games (e como o pack resolve cada um)" → CTA final.
-4. **Community post** — "Vazamento novo do GTA 6! Já tem vídeo pronto no pack. Quem quer acesso antecipado?" 
+4. **Community post** — "Novidade novo do GTA 6! Já tem vídeo pronto no pack. Quem quer acesso antecipado?" 
 5. **Thread X** — "Como monetizei meu canal de Shorts em 90 dias — sem aparecer, sem editar." (8 tweets) → CTA.
 6. **Pinterest** — 10 pins "viral gta 6 shorts ideas".
 

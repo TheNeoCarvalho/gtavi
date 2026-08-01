@@ -1,10 +1,10 @@
 import { Search, TrendingUp, Download, Star } from "lucide-react";
 
 const rows = [
-  { title: "Vazamento GTA 6 — primeiras imagens", views: "1,2M", tag: "vazamento" },
-  { title: "O corte mais insano do novo trailer", views: "890K", tag: "corte" },
+  { title: "Corte de gameplay GTA 6 — primeiros minutos", views: "1,2M", tag: "novidade" },
+  { title: "O corte mais insano de gameplay", views: "890K", tag: "corte" },
   { title: "GTA 6: o que ninguém te contou", views: "640K", tag: "curiosidade" },
-  { title: "Reação em tempo real ao trailer", views: "510K", tag: "reação" },
+  { title: "Momento mais tenso do gameplay", views: "510K", tag: "destaque" },
 ];
 
 export function Dashboard({ className }: { className?: string }) {
@@ -29,7 +29,7 @@ export function Dashboard({ className }: { className?: string }) {
             Título pronto
           </div>
           <p className="mt-1 truncate font-display text-xs font-semibold text-text">
-            GTA 6: 3 vazamentos em 1 minuto 🔥
+            GTA 6: 3 novidades em 1 minuto 🔥
           </p>
         </div>
         <div className="rounded-lg bg-white/5 p-3">
@@ -38,7 +38,7 @@ export function Dashboard({ className }: { className?: string }) {
             Tags sugeridas
           </div>
           <p className="mt-1 font-mono text-xs text-muted">
-            #gta6 #shorts #viral #vazamento
+            #gta6 #shorts #viral #novidade
           </p>
         </div>
         <div className="rounded-lg bg-white/5 p-3">

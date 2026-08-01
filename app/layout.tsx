@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import { Toaster } from "sonner";
 import { SITE } from "@/constants/site";
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE.name}`,
   },
   description:
-    "Pack com +1.500 vídeos de GTA 6 100% prontos: cortes virais, trailers e vazamentos. Sem marca d'água, narração e edição feitas. Monetize no Shorts, Reels e TikTok. Garantia de 7 dias.",
+    "Pack com +1.500 vídeos de GTA 6 100% prontos: cortes de gameplay e novidades. Sem marca d'água, narração e edição feitas. Monetize no Shorts, Reels e TikTok. Garantia de 7 dias.",
   keywords: [
     "pack de vídeos gta 6",
     "vídeos prontos para shorts",
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: `${SITE.product} — +1.500 Vídeos de GTA 6 Prontos para Postar e Monetizar`,
     description:
-      "Cortes virais, trailers e vazamentos prontos pra postar. Sem marca d'água, com narração e edição feitas. Acesso imediato + garantia de 7 dias.",
+      "Cortes de gameplay e novidades prontos pra postar. Sem marca d'água, com narração e edição feitas. Acesso imediato + garantia de 7 dias.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: SITE.tagline }],
   },
   twitter: {
@@ -94,6 +95,27 @@ export default function RootLayout({
           Pular para o conteúdo
         </a>
         <JsonLd />
+        <Script id="meta-pixel" strategy="afterInteractive">
+          {`!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1721081592478921');
+fbq('track', 'PageView');`}
+        </Script>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1721081592478921&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
         {children}
         <Toaster
           position="bottom-center"
