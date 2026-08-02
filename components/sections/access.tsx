@@ -1,8 +1,10 @@
+import { Play } from "lucide-react";
 import { Check } from "lucide-react";
 import { ACCESS_BULLETS } from "@/constants/site";
 import { SectionHeading, SectionShell } from "@/components/ui/section-heading";
 import { Reveal } from "@/components/ui/motion";
 import { Dashboard } from "@/components/home/dashboard";
+import { GameplayGallery } from "@/components/home/gameplay-gallery";
 
 export function Access() {
   return (
@@ -37,6 +39,22 @@ export function Access() {
           <Dashboard />
         </Reveal>
       </div>
+
+      <Reveal className="mt-20 md:mt-24">
+        <div className="mb-10 flex flex-col items-center gap-3 text-center">
+          <p className="eyebrow flex items-center gap-2">
+            <Play className="size-3.5" aria-hidden />
+            Sneak peek
+          </p>
+          <h3 className="font-display text-[clamp(1.5rem,3.5vw,2.25rem)] font-bold leading-tight tracking-tight">
+            Um gostinho do que <span className="text-gradient">tem dentro</span>
+          </h3>
+          <p className="max-w-xl text-sm leading-relaxed text-muted md:text-base">
+            Cortes de gameplay selecionados, já no formato certo pra postar e monetizar no Shorts, Reels e TikTok.
+          </p>
+        </div>
+        <GameplayGallery />
+      </Reveal>
     </SectionShell>
   );
 }
