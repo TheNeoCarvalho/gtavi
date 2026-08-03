@@ -231,17 +231,15 @@ export const PRICING_BASIC_FEATURES = [
   { text: "4 bônus + Comunidade Pré-Season", included: false },
   { text: "Atualizações vitalícias inclusas", included: false },
   { text: "+50.000 cortes dos EUA (dólar)", included: false },
-  { text: "+20.000 cursos liberados", included: false },
   { text: "Conteúdo premium pós-lançamento", included: false },
 ] as const;
 
 export const PRICING_PRO_FEATURES = [
-  { text: "+1.500 vídeos do GTA 6 (básico)", included: true },
+  { text: "+1.500 vídeos do GTA 6 100% prontos", included: true },
   { text: "Vídeos com +1 minuto — ideais pra monetizar", included: true },
   { text: "Sem marca d'água, narração e edição feitas", included: true },
   { text: "+50.000 cortes virais (Brasil)", included: true },
   { text: "+50.000 cortes dos EUA — monetize em DÓLAR", included: true },
-  { text: "+20.000 cursos liberados", included: true },
   { text: "4 bônus + Comunidade Pré-Season", included: true },
   { text: "Atualizações vitalícias inclusas", included: true },
   { text: "Conteúdo premium pós-lançamento", included: true },
