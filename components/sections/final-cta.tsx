@@ -7,6 +7,15 @@ export function FinalCta() {
   return (
     <SectionShell id="garanta" className="relative overflow-hidden">
       <div className="aurora" aria-hidden />
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-20"
+        style={{ backgroundImage: "url(/gta6/ultimate-edition.jpg)" }}
+        aria-hidden
+      />
+      <div
+        className="absolute inset-0 bg-[linear-gradient(180deg,var(--color-bg)_0%,transparent_35%,transparent_65%,var(--color-bg)_100%)]"
+        aria-hidden
+      />
       <Reveal>
         <div className="mx-auto max-w-3xl text-center">
           <p className="eyebrow mb-4 flex items-center justify-center gap-2">

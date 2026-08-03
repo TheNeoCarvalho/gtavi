@@ -25,6 +25,15 @@ export function Hero() {
   return (
     <section id="inicio" className="relative overflow-hidden pt-10 md:pt-16">
       <div className="aurora" aria-hidden />
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-25"
+        style={{ backgroundImage: "url(/gta6/vice-city-neon.jpg)" }}
+        aria-hidden
+      />
+      <div
+        className="absolute inset-0 bg-[linear-gradient(180deg,var(--color-bg)_0%,transparent_35%,transparent_65%,var(--color-bg)_100%)]"
+        aria-hidden
+      />
       <Container className="relative z-10">
         <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
           <div className="text-center lg:text-left">
