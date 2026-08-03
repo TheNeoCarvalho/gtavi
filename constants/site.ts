@@ -175,11 +175,6 @@ export const PRO_BONUSES = [
     title: "+50.000 Cortes dos EUA",
     desc: "Monetize em DÓLAR com conteúdo gringo de alta demanda.",
   },
-  {
-    tag: "PRO 02",
-    title: "+20.000 Cursos Liberados",
-    desc: "Acervo de cursos de vários nichos pra turbinar sua carreira.",
-  },
 ] as const;
 
 export const TESTIMONIALS = [
@@ -233,8 +228,8 @@ export const PRICING_BASIC_FEATURES = [
   { text: "Vídeos com +1 minuto — ideais pra monetizar", included: true },
   { text: "Sem marca d'água, narração e edição feitas", included: true },
   { text: "+50.000 cortes virais (Brasil)", included: true },
-  { text: "4 bônus + Comunidade Pré-Season", included: true },
-  { text: "Atualizações vitalícias inclusas", included: true },
+  { text: "4 bônus + Comunidade Pré-Season", included: false },
+  { text: "Atualizações vitalícias inclusas", included: false },
   { text: "+50.000 cortes dos EUA (dólar)", included: false },
   { text: "+20.000 cursos liberados", included: false },
   { text: "Conteúdo premium pós-lançamento", included: false },

@@ -39,10 +39,6 @@ export function Community() {
             </Reveal>
           ))}
         </ul>
-
-        <p className="mt-6 text-center font-mono text-xs text-dim md:text-left">
-          Suporte via WhatsApp: {SITE.whatsapp.replace("https://wa.me/", "")}
-        </p>
       </div>
     </SectionShell>
   );
