@@ -44,11 +44,12 @@ export function MockupPlayer({ className }: { className?: string }) {
             aria-hidden
           />
           <div
-            className="absolute inset-0 opacity-80"
-            style={{
-              background:
-                "linear-gradient(200deg, transparent 30%, rgba(255,45,146,0.35) 60%, rgba(59,130,246,0.4) 100%)",
-            }}
+            className="absolute inset-0 bg-cover bg-center opacity-80"
+            style={{ backgroundImage: "url(/sneak-peek/gta6-6.jpg)" }}
+            aria-hidden
+          />
+          <div
+            className="absolute inset-0 bg-[linear-gradient(200deg,transparent_30%,rgba(255,45,146,0.35)_60%,rgba(59,130,246,0.4)_100%)]"
             aria-hidden
           />
           <div
@@ -72,7 +73,7 @@ export function MockupPlayer({ className }: { className?: string }) {
           <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-black/70 to-transparent" aria-hidden />
           <div className="absolute inset-x-3 bottom-3">
             <div className="h-1 w-full overflow-hidden rounded-full bg-white/15">
-              <div className="h-full w-1/3 rounded-full bg-gradient-to-r from-pink to-purple" />
+              <div className="h-full w-1/3 rounded-full bg-gradient-to-r from-pink to-purple"/>
             </div>
           </div>
           <p className="absolute right-3 top-3 font-mono text-[0.6rem] text-white/80">
